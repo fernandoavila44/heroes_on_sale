@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header section */
+
+#header{
+    box-shadow: 0px 10px 10px -6px gray;
+    position: sticky;
+    top: 0;
+}
+
+.header1{
+    background-color: #1CD1B0;
+}
+
+.header1,p{
+    padding: 5px 0 5px 5px;
+}
+
+.header2{
+    background-color: #00669F;
+}
+
+.header2,h1{
+    padding: 10px 0 10px 10px;
+    font-size: 30px;
+}
+
+/* Card section */
+
+#heroes{
+   text-align: center;
+   margin: 150px 0;
+}
+
+.imgCircle{
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px -6px grey;
+    position: absolute;
+    top: 125px;
+    left: 90px;
+}
+
+.imgHearth{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.divBack{
+    background-image: url(../img/fondo1.png);
+    height: 193px;
+    width: 300px;
+   
+}
+
+.divQueen{
+    background-image: url(../img/fondo10.png);
+    height: 193px;
+    width: 300px;
+   
+}
+
+.cardHero{
+    background-color: #F3F3F3;
+    box-shadow: 0px 10px 10px -6px grey;
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    width: 300px;
+}
+
+.titleCard{
+    margin: 70px 0 10px;
+}
+
+.descCard{
+    text-align: left;
+    margin: 0 10px;
+}
+
+.button{
+    background-color: #00669F;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 40px;
+    margin: 30px 0 20px;
+}
+
+/* Footer section */
+
+footer{
+    background-color: #00669F;
+    color: white;
+}
+
+footer,p{
+    padding: 10px 0 11px 10px;
+}
